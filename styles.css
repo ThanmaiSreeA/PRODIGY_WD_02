@@ -1,0 +1,76 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.stopwatch {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 300px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent; /* Default border to maintain button size */
+}
+
+#startStopBtn {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50; /* Outline color */
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: white;
+    border-color: #f44336; /* Outline color */
+}
+
+#lapBtn {
+    background-color: #008CBA;
+    color: white;
+    border-color: #008CBA; /* Outline color */
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+    width: 300px;
+    height: 100px;
+    overflow-y: auto;
+    color: black;
+}
+
